@@ -1,6 +1,3 @@
-INSERT INTO account (account_id, "name" , username, "password") VALUES
-('1234567890', 'AGNIA PUNJABI', 'AGNIA', 'agnia123'),
-('0987654321', 'JOHN FRAKLE', 'JOHN', 'johnf345');
 INSERT INTO transaction ("id", account_id, "bank_id", "amount", "transaction_date") VALUES
 ('1', '1234567890', '001', 500000, '2024-05-01 12:00:00'),
 ('2', '1234567890', '001', 400000, '2024-05-02 13:00:00'),
